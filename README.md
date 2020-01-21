@@ -17,3 +17,9 @@ In addition, Two Sample T-Tests, showed that while rainfall equaling 2 inches or
 Anova tests showed that there is a reduction of calls on weekends opposed to weekdays. While there is seasonality, the seasons themselves have very little effect on the variance in the EMS calls, (in terms of being summer or spring, AKA. School seasons) but that it is the tempeture itself that is responsible for the variance in calls. 
 
 ## The Models
+
+Six Facebook Prophet Models were made. One for overall NYC as well as one for each Borough. Interestingly overall NYC model, during testing, preformed with and MSE of 2%, while individual Boroughs were between 4-8% MSE. Testing for these models were done by removing dates from the fitting and testing the proceding week to the data input.
+
+
+## Future Applicaitons and Diving Deeper
+Going forward this model can be used to prepare the nessicary resources in advance of the calls so enough Medical Providers and Ambulances are availible before each shift. Future depths of this project would be to predict the severity of the calls, as well as the number so the properly trained professionals can be made availible per location.
