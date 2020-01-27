@@ -9,12 +9,29 @@ The goal of this project was to be able to predict how many EMS calls, in each b
 ## Exploritory Data Analysis 
 While analysing this data a few interesting occurances poped out. Manhattan and Bronx both have the most EMS calls per capita per day. This makes sense for Manhattan Thousands of people commute to the city for work, so while the Medical Emergencies get counted towards Manhattan dispatches, their per capita are counted at their residences. 
 
+Call Per Population by Borough
+
+![Call Per Population](https://github.com/kmcnicoll/EMS_PREDICTIONS/blob/master/Final_Project/download.png)
+
 
 In addition, Two Sample T-Tests, showed that while rainfall equaling 2 inches or less does not have a statistically signifigant effect on the number of EMS calls, as well as the fact that days considered to be US federal holidays do signifigantly reduce the amount of Medical Emergency calls that day.
 
 
+Holiday Distributions
+![US Holiday](https://github.com/kmcnicoll/EMS_PREDICTIONS/blob/master/Final_Project/download-1.png)
 
 Anova tests showed that there is a reduction of calls on weekends opposed to weekdays. While there is seasonality, the seasons themselves have very little effect on the variance in the EMS calls, (in terms of being summer or spring, AKA. School seasons) but that it is the tempeture itself that is responsible for the variance in calls. 
+
+
+Days of the Week Boxplot
+![day of week boxplot](https://github.com/kmcnicoll/EMS_PREDICTIONS/blob/master/Final_Project/download-2.png)
+
+
+
+Another interesting discovery was that while decompositioning the data, it was discovered that there was an upwards trend of about 600 calls since 2013. This is slightly concering as the population of NYC has stayed stagnant over the years.
+
+Decomposition for Trend, and Seasons
+![decomposition graph, unscaled](https://github.com/kmcnicoll/EMS_PREDICTIONS/blob/master/Final_Project/download-3.png)
 
 ## The Models
 
